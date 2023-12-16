@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/fontawesome.css">
+    <title>Rock|Scissor|papper</title>
+</head>
+<body>  
+
+    <div class="container-fluid">
+        <h1 class="text-center mt-2 bg-dark text-white header">Let's play Rock | Scissors | Paper!</h1>
+
+        <div class="container d-flex justify-content-center align-items-center py-3">
+            <img id="scissors" src="./images/scissors.png" alt="" class="size images">
+            <img id="paper" src="./images/paper.png" alt="" class="size images">
+            <img id="rock" src="./images/rock.png" alt="" class="size images">
+        </div>
+        <div class="container count">
+            <div class="user count fw-bold fs-4 m-4">
+                <p id="user">User:</p>
+                <p id="uCount">0</p>
+            </div>
+            <div class="computer count fw-bold fs-4 m-4">
+                <p id="computer">Computer:</p>
+                <p id="cCount">0</p>
+            </div>
+        </div>
+        <div class="msg-container text-center">
+            <p id="message" class="text-white  d-inline py-3 px-5 rounded-3 fw-bold fs-4">Pick Your Move!</p>
+        </div>
+    </div>
+ 
+    <script src="./js/style.js"></script>
+</body>
+</html>

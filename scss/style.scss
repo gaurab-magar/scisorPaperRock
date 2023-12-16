@@ -1,0 +1,32 @@
+.container-fluid{
+    background-color: lightskyblue;
+    height: 98vh;
+}
+
+.header{
+    height: 4rem;
+    line-height: 4rem;
+}
+.size{
+    height: 10rem;
+    width: 10rem;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 2rem;
+}
+.size:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+.size:active{
+    transform: scale(0.9);
+    transition: all .4s ease-in-out;
+}
+.count{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#message{
+    background-color: coral;
+}
